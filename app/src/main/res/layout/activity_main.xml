@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/command_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/command_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Command"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/execute_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Execute" />
+    <Button
+        android:id="@+id/termux_api_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run Termux API" />
+
+</LinearLayout>
